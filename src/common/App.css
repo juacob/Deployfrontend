@@ -1,0 +1,157 @@
+.topnav {
+  background-color: #585858;
+  overflow: hidden;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 1vw 2vw;
+  text-decoration: none;
+  font-size: 1.8vw;
+  background-color: #303030;
+
+}
+
+
+.topnav a:hover {
+  background-color: #e7e9f6;
+  color: black;
+}
+
+
+.topnav a.active {
+  background-color: #1d1f22;
+  color: white;
+}
+
+
+.App {
+  display: flexbox;
+  text-align: center;
+  background-color: #888;
+}
+
+a {
+  background-color: #888;
+}
+
+.fotos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  background-color: #888;
+}
+
+
+.logo {
+  scale: 0.5;
+  background-color: #888;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #f5fe53);
+}
+
+.rafa {
+  scale: 1;
+  margin: 0;
+  width: 100%;
+}
+
+.container_rafa {
+  background-color: #888;
+}
+
+.container_nole {
+  background-color: #888;
+}
+
+.container_federer {
+  background-color: #888;
+}
+
+.container_formulario {
+  scale: 1.2
+}
+
+.nole {
+  scale: 1;
+  margin: 0;
+  width: 100%;
+}
+
+
+.read-the-docs {
+  color: #888;
+}
+
+h1 {
+  font-size: xx-large;
+  background-color: #888;
+}
+
+h2 {
+  background-color: #888;
+}
+
+.topnav {
+  background-color: #e5e5e5;
+}
+
+
+
+h3 {
+  background-color: #888;
+}
+
+label {
+  background-color: #888;
+  align-items: center;
+}
+
+
+input {
+  background-color: #888;
+  padding: 0.5vw;
+  border-radius: 10px;
+}
+
+
+form {
+  background-color: #888;
+}
+
+button {
+  background-color: #e1ec40;
+  padding: 0.5vw;
+  border-radius: 10px;
+}
+
+
+.button:hover {
+  filter: drop-shadow(0 0 2em #fffffe);
+}
+
+img {
+  border-radius: 10px;
+}
+
+.footer {
+  background-color: #888;
+}
+
+.error {
+  color: rgba(255, 115, 115, 0.862);
+}
+
+.ok {
+  color: rgba(113, 242, 90, 0.588);
+}

@@ -1,0 +1,84 @@
+.topnav {
+  background-color: #585858;
+  overflow: hidden;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 1vw 2vw;
+  text-decoration: none;
+  font-size: 1.8vw;
+  background-color: #303030;
+  
+}
+
+
+.topnav a:hover {
+  background-color: #e7e9f6;
+  color: black;
+}
+
+
+.topnav a.active {
+  background-color: #1d1f22;
+  color: white;
+}
+
+
+
+.AcercaDe {
+    display: flexbox;
+    text-align: center;
+    max-width: auto;
+    margin: 0 ;
+    background-color: #888;
+  }
+
+.perfiles {
+    display: flex;
+    flex-direction: row;
+    background-color: #888;
+}
+
+b {
+  background-color: #888;
+  color: #f2f2f2;
+}
+
+.caco {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    background-color: #888;
+}
+
+.foto_caco {
+  scale: 0.610108;
+  margin: 0;
+  width: 100%;
+}
+
+.chalo {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    background-color: #888;
+}
+
+.foto_chalo {
+  scale: 0.6;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.logo_acerca_de {
+    scale: 0.3;
+  }
+
+.header {
+  margin:0
+}
